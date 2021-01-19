@@ -10,6 +10,8 @@ let afterpurchase = (amountOfMoneyInWallet - itemPrice);
 
 console.log('After purchase: $' + afterpurchase);
 
+console.log('After purchase' + amountOfMoneyInWallet - itemPrice);
+
 console.log('Ive made this many friends every year of my life: ' + numberOfFriends / ageInYears);
 
 console.log('My Name is: ' + firstName, middleInitial, lastName);
