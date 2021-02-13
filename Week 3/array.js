@@ -19,6 +19,7 @@ let lengths = names.map(function (element) {
 })
 console.log(lengths);
 
+
 let namesAverage = lengths.reduce(function (accumulator, currentValue) {
     return (accumulator + currentValue);
 }, 0)
